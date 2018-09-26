@@ -83,7 +83,7 @@ var BoardsORM = exports.BoardsORM  = {
 		}, {
 			name: 'tags',
 			joinDao: require("ide-discussions/lib/board_tags_dao").create,
-			targetDao: require("tags/lib/tags_dao").create,
+			targetDao: require("ide-discussions/lib/tags_dao").create,
 			joinKey: "boardId",
 			type: "many-to-many"
 		}, {
