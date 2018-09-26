@@ -9,10 +9,11 @@
 <div class="pull-right button-group">
 	<button class="btn btn-primary" ui-sref="list.new" title="{{toolbarVm.i18n.format('buttons.new')}}" ng-bind="toolbarVm.i18n.format('buttons.new')"></button>
 	
+	<!--
 	<button class="btn btn-primary" ui-sref="list.login" ng-if="!toolbarVm.loggedUser" title="{{toolbarVm.i18n.format('buttons.signin')}}"><i class="glyphicon glyphicon-log-in"></i></button>
 	<div class="btn-group" ng-if="toolbarVm.loggedUser" >
 		<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="{{toolbarVm.i18n.format('buttons.settings')}}">
-			<!-- img ng-src="../../../js/dboards/svc/user/avatar.js" title="{{settingsVm.i18n.format('settings.avatar_label')}}" style="width:20px;height:20px"/ --> 
+			<! -- img ng-src="../../../js/dboards/svc/user/avatar.js" title="{{settingsVm.i18n.format('settings.avatar_label')}}" style="width:20px;height:20px"/ -- > 
 			<span class="fa fa-user text-secondary" title="{{settingsVm.i18n.format('settings.avatar_label')}}" style="width:20px;height:20px></span>
 			<span class="caret text-secondary"></span>
 		</button>
@@ -21,5 +22,7 @@
 			<li><a href ui-sref="logout" title="{{toolbarVm.i18n.format('buttons.signout')}}"><i class="fa fa-power-off"></i> Sign-out</a></li>
 		</ul>
 	</div>
+	
+	-->
 	
 </div>
