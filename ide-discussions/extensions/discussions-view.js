@@ -8,13 +8,13 @@
  * Contributors:
  *   SAP - initial API and implementation
  */
-exports.getView = function() {
+exports.getView = function () {
 	return {
-			'id': 'discussions',
-			'name': 'Discussions',
-			'factory': 'frame',
-			'region': 'center-bottom',
-			'label': 'Discussions',
-			'link': '../ide-discussions/ui/index.html'
+		'id': 'discussions',
+		'name': 'Discussions',
+		'factory': 'frame',
+		'region': 'center-bottom',
+		'label': 'Discussions',
+		'link': '../ide-discussions/ui/index.html'
 	};
 };

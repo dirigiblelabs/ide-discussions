@@ -8,11 +8,11 @@
  * Contributors:
  *   SAP - initial API and implementation
  */
-exports.getPerspective = function() {
+exports.getPerspective = function () {
 	return {
-			'name': 'Discussions',
-			'link': '../ide-discussions/index.html',
-			'order': '160',
-			'image': 'comments-o'
+		'name': 'Discussions',
+		'link': '../ide-discussions/index.html',
+		'order': '160',
+		'image': 'comments-o'
 	};
 };

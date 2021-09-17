@@ -8,7 +8,7 @@
  * Contributors:
  *   SAP - initial API and implementation
  */
-var response = require('http/v4/response');
+let response = require('http/v4/response');
 response.setContentType("application/json");
 response.println(JSON.stringify({
 	"username": require('security/v4/user').getName()
